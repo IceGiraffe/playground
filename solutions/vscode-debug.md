@@ -5,4 +5,3 @@
   * `name`是调试配置的名字，不重要
   * `request`是调试的模式，launch模式表示启动程序并调试；attach模式表示将程序附加到一个正在运行的进程中进行调试。
 * VS Code支持全局的`launch.json`配置，可以在全局的`settings.json`文件中使用`launch`属性设置全局的调试配置。全局配置会被当前文件夹下的`launch.json`文件覆盖。
-* 
