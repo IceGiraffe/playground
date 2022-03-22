@@ -17,6 +17,12 @@ using namespace std;
 
 int main()
 {
+    int i = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        i++;
+        cout << i << endl;
+    }
     cout << "Hello World!" << endl;
     cout << "Second Commit" << endl;
     return 0;
